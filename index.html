@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catholic Keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="keyboard-container">
+        <h1>Catholic-Themed Keyboard</h1>
+        <textarea id="output" placeholder="Type here..."></textarea>
+        <div class="keyboard">
+            <!-- Alphabet Keys -->
+            <button onclick="typeKey('A')">A</button>
+            <button onclick="typeKey('B')">B</button>
+            <!-- Add more alphabet keys as needed -->
+            
+            <!-- Catholic Symbols -->
+            <button onclick="typeKey('✝')">✝</button>
+            <button onclick="typeKey('✟')">✟</button>
+            <button onclick="typeKey('☧')">☧</button>
+            <button onclick="typeKey('🙏')">🙏</button>
+            <!-- Add more symbols as needed -->
+
+            <!-- Common Phrases -->
+            <button onclick="typePhrase('Amen')">Amen</button>
+            <button onclick="typePhrase('Hallelujah')">Hallelujah</button>
+            <button onclick="typePhrase('Praise be to God')">Praise be to God</button>
+
+            <!-- Functional Buttons -->
+            <button onclick="clearText()">Clear</button>
+            <button onclick="copyText()">Copy</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
